@@ -5,7 +5,7 @@ public class StudentData {
 	public static void main(String[] args) {
 		String name = "Sumanth";
 		int age = 25;
-		double percentage = 91.84;
+		double percentage = 91.86;
 		char grade = 'A';
 		boolean isPassed = true;
 		
