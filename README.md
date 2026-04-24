@@ -4,8 +4,10 @@
 This repository contains my Java learning journey from basics to advanced topics.
 
 ## Topics Covered
-- Variables and Data Types
-- If-Else Statements
+-Basic Java syntax
+-If-else statements
+-Loops (for, while)
+-Number problems (reverse, palindrome, factorial, etc.)
 
 ## Tech Used
 - Java
