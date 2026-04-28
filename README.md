@@ -4,17 +4,11 @@
 This repository contains my Java learning journey from basics to advanced topics.
 
 ## Topics Covered
--Basic Java syntax
--If-else statements
--Loops (for, while)
--Number problems (reverse, palindrome, factorial, etc.)
-
- Java Pattern Programs
-- Star patterns (increasing, decreasing)
-- Number patterns
-- Pyramid and inverted pyramid
-- Practiced using nested loops
-
+- Basic Java syntax
+- If-else statements
+- Loops 
+- Methods
+  
 ## Tech Used
 - Java
 - Eclipse IDE
