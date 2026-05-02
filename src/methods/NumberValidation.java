@@ -4,27 +4,25 @@ import java.util.Scanner;
 
 public class NumberValidation {
 
-    public static void evenOrOdd(int number) {
-        if (number % 2 == 0) {
-            System.out.println(number + " is even");
-        } else {
-            System.out.println(number + " is odd");
-        }
-    }
+	public static String evenOrOdd(int number) {
+		if(number % 2 == 0) {
+			return "Even";
+		}else {
+			return "Odd";
+		}
+	}
 
-    public static void positiveOrNegative(int number) {
-        if (number > 0) {
-            System.out.println(number + " is positive");
-        } else if (number < 0) {
-            System.out.println(number + " is negative");
-        } else {
-            System.out.println("Zero");
-        }
-    }
-
+	public static String positiveOrNegative(int number) {
+		if (number == 0) {
+			return "Zero";
+		}
+		
+		return (number > 0) ? "Positive" : "Negative";
+	}
+	
     public static int sumOfDigits(int number) {
         int sum = 0;
-        int temp = number;
+        int temp = Math.abs(number);
 
         while (temp != 0) {
             int digit = temp % 10;   // FIXED
@@ -36,26 +34,20 @@ public class NumberValidation {
     }
 
     public static int reverseNumber(int number) {
-        int reverse = 0;
-        int temp = number;
+        int rev = 0;
+        int temp = Math.abs(number);
 
         while (temp != 0) {
             int digit = temp % 10;
-            reverse = reverse * 10 + digit;
+            rev = rev * 10 + digit;
             temp = temp/ 10;
         }
 
-        return reverse;
+        return (number < 0) ? -rev : rev;
     }
 
-    public static void checkPalindrome(int number) {
-    	int reversed = reverseNumber(number);
-    	
-    	if(number == reversed) {
-    		System.out.println("Palindrome");
-    	}else {
-    		System.out.println("Not a palindrome");
-    	}
+    public static boolean isPalindrome(int number) {
+        return number == reverseNumber(number);
     }
     
     public static void main(String[] args) {
@@ -64,16 +56,11 @@ public class NumberValidation {
         System.out.println("Enter a number: ");
         int number = sc.nextInt();
 
-        evenOrOdd(number);
-        positiveOrNegative(number);
-
-        int sum = sumOfDigits(number);
-        System.out.println("Sum of digits: " + sum);
-
-        int reverse = reverseNumber(number);
-        System.out.println("Reverse: " + reverse);
-
-        checkPalindrome(number);
+        System.out.println(evenOrOdd(number));
+        System.out.println(positiveOrNegative(number));
+        System.out.println("Sum: " + sumOfDigits(number));
+        System.out.println("Reverse: " + reverseNumber(number));
+        System.out.println("Palindrome: " + isPalindrome(number));
         
         sc.close();
     }
