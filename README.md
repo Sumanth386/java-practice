@@ -2,7 +2,7 @@
 
 ## About
 This repository documents my Java learning journey from basics to advanced problem-solving.  
-It includes hands-on coding practice to strengthen logic building and prepare for software developer roles.
+It includes hands-on coding practice to strengthen logic-building skills and prepare for software developer roles.
 
 ---
 
@@ -14,6 +14,9 @@ It includes hands-on coding practice to strengthen logic building and prepare fo
 - Conditional statements (if-else, switch)
 - Loops (for, while, do-while)
 - Methods and functions
+- String handling and manipulation
+
+---
 
 ### Arrays (Core Focus)
 - Array operations (traversal, sum, count)
@@ -27,10 +30,21 @@ It includes hands-on coding practice to strengthen logic building and prepare fo
 
 ---
 
+### Strings (Practice Section)
+- String basics and methods
+- Reverse string
+- Palindrome check
+- Vowel, digit, and space counting
+- Character frequency
+- Removing spaces
+- Word counting
+
+---
+
 ## Current Focus
-- Strengthening problem-solving skills using arrays
-- Improving logic building step by step
-- Practicing DSA-style array patterns
+- Strengthening problem-solving skills using arrays and strings
+- Improving logic-building step by step
+- Practicing DSA-style patterns
 - Writing clean and efficient Java code
 
 ---
