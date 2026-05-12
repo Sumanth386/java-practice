@@ -14,38 +14,9 @@ It includes hands-on coding practice to strengthen logic-building skills and pre
 - Conditional statements (if-else, switch)
 - Loops (for, while, do-while)
 - Methods and functions
-- String handling and manipulation
-
----
-
-### Arrays (Core Focus)
-- Array operations (traversal, sum, count)
-- Sorting algorithms (Bubble Sort, Selection Sort, Insertion Sort)
-- Searching techniques (Linear Search, Binary Search)
-- Array manipulation (reverse, rotate, move zeros)
-- Two-pointer technique
-- Removing duplicates from sorted arrays
-- Enhanced for-each loop usage
-- Java Arrays utility class (`Arrays.sort`, `Arrays.toString`, etc.)
-
----
-
-### Strings (Practice Section)
-- String basics and methods
-- Reverse string
-- Palindrome check
-- Vowel, digit, and space counting
-- Character frequency
-- Removing spaces
-- Word counting
-
----
-
-## Current Focus
-- Strengthening problem-solving skills using arrays and strings
-- Improving logic-building step by step
-- Practicing DSA-style patterns
-- Writing clean and efficient Java code
+- Arrays
+- String
+- Object Oriented Programming
 
 ---
 
