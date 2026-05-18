@@ -8,7 +8,6 @@ It includes hands-on coding practice to strengthen logic-building skills and pre
 
 ## Topics Covered
 
-### Core Java Basics
 - Basic Java syntax
 - Input and Output
 - Conditional statements (if-else, switch)
@@ -17,6 +16,9 @@ It includes hands-on coding practice to strengthen logic-building skills and pre
 - Arrays
 - String
 - Object Oriented Programming
+- Collection Framework
+- Exception Handling
+- Mutlithreading
 
 ---
 
