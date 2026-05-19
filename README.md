@@ -19,6 +19,7 @@ It includes hands-on coding practice to strengthen logic-building skills and pre
 - Collection Framework
 - Exception Handling
 - Mutlithreading
+- Java 8 Features
 
 ---
 
