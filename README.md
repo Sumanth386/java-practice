@@ -26,7 +26,7 @@ It includes hands-on coding practice to strengthen logic-building skills and pre
 
 ## Tech Stack
 - Java
-- MYSQL
+- MySQL
 - JDBC
 - Eclipse IDE
 - Git & GitHub
