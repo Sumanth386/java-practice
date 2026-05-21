@@ -20,11 +20,14 @@ It includes hands-on coding practice to strengthen logic-building skills and pre
 - Exception Handling
 - Mutlithreading
 - Java 8 Features
-
+- Java Data Base Connectivity(JDBC)
+  
 ---
 
 ## Tech Stack
 - Java
+- MYSQL
+- JDBC
 - Eclipse IDE
 - Git & GitHub
 
