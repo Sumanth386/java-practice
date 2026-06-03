@@ -2,25 +2,16 @@ package loops;
 
 import java.util.Scanner;
 
-/* Instead of loop, mathematically:
-   Sum = n * (n + 1) / 2 
-*/
-public class SumOfNumbers {
+public class NumbersFrom1ToN {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		int number = sc.nextInt();
 		
-		int sum = 0;
-		
 		for(int i = 1; i <= number; i++) {
-			if(i % 2 == 0) {
-				sum += i;
-			}
+			System.out.print(i + " ");
 		}
-		
-		System.out.println("Sum = " + sum);
 		
 		sc.close();
 	}
